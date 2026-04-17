@@ -1,0 +1,131 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "9780743273565",
+      "genre": "Fiction",
+      "year": 1925,
+      "totalCopies": 3,
+      "availableCopies": 2,
+      "coverColor": "#1a1a2e",
+      "description": "A story of the mysteriously wealthy Jay Gatsby and his love for Daisy Buchanan.",
+      "createdAt": "2026-04-17T10:04:06.120Z"
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "9780061935466",
+      "genre": "Fiction",
+      "year": 1960,
+      "totalCopies": 4,
+      "availableCopies": 3,
+      "coverColor": "#2d6a4f",
+      "description": "The story of racial injustice and the loss of innocence in the American South.",
+      "createdAt": "2026-04-17T10:04:06.120Z"
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "genre": "Dystopian",
+      "year": 1949,
+      "totalCopies": 5,
+      "availableCopies": 4,
+      "coverColor": "#81171b",
+      "description": "A chilling prophecy about the future with Big Brother watching every move.",
+      "createdAt": "2026-04-17T10:04:06.120Z"
+    },
+    {
+      "id": "4",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "isbn": "9780441013593",
+      "genre": "Sci-Fi",
+      "year": 1965,
+      "totalCopies": 3,
+      "availableCopies": 1,
+      "coverColor": "#3d405b",
+      "description": "An epic saga set in a distant future on the desert planet Arrakis.",
+      "createdAt": "2026-04-17T10:04:06.120Z"
+    },
+    {
+      "id": "5",
+      "title": "The Hitchhiker's Guide",
+      "author": "Douglas Adams",
+      "isbn": "9780345391803",
+      "genre": "Sci-Fi",
+      "year": 1979,
+      "totalCopies": 2,
+      "availableCopies": 2,
+      "coverColor": "#533483",
+      "description": "A humorous sci-fi comedy series following the last human on Earth.",
+      "createdAt": "2026-04-17T10:04:06.120Z"
+    },
+    {
+      "id": "6",
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "isbn": "9780062316110",
+      "genre": "Non-Fiction",
+      "year": 2011,
+      "totalCopies": 4,
+      "availableCopies": 3,
+      "coverColor": "#1f4e5f",
+      "description": "A brief history of humankind from the Stone Age to the modern era.",
+      "createdAt": "2026-04-17T10:04:06.120Z"
+    }
+  ],
+  "members": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "+1-555-0101",
+      "membershipType": "premium",
+      "joinedAt": "2024-01-15T00:00:00Z",
+      "activeLoans": 1
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "phone": "+1-555-0102",
+      "membershipType": "basic",
+      "joinedAt": "2024-03-22T00:00:00Z",
+      "activeLoans": 1
+    },
+    {
+      "id": "3",
+      "name": "Carol White",
+      "email": "carol@example.com",
+      "phone": "+1-555-0103",
+      "membershipType": "premium",
+      "joinedAt": "2023-11-08T00:00:00Z",
+      "activeLoans": 0
+    }
+  ],
+  "loans": [
+    {
+      "id": "1",
+      "bookId": "1",
+      "memberId": "1",
+      "borrowedAt": "2026-04-10T10:04:06.120Z",
+      "dueDate": "2026-04-24T10:04:06.120Z",
+      "returnedAt": null,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "bookId": "4",
+      "memberId": "2",
+      "borrowedAt": "2026-03-28T10:04:06.120Z",
+      "dueDate": "2026-04-11T10:04:06.120Z",
+      "returnedAt": null,
+      "status": "overdue"
+    }
+  ]
+}
